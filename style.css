@@ -29,11 +29,13 @@ body{
   margin: 10px 0;
   background: #e8e4e6;
   height: 150px;
+  flex-wrap: wrap;
 }
 
 .flex {
       display: flex;
-      height: 100px;
+      /*height: 100px;*/
+      flex-direction: column;
     }
     
     .infl {
@@ -41,8 +43,11 @@ body{
     }
     
     .start {
-      justify-content: flex-start;
+     /*justify-content: flex-start;
       align-items: flex-start;
+     align-content: flex-start;*/
+      flex-direction: column;
+      
     }
     
     .end {
@@ -60,13 +65,15 @@ body{
     .around {
       justify-content: space-around;
       align-items: baseline;
-    
+       align-content: space-around;
+        flex-wrap: wrap;    
     }
     
     .between {
       justify-content: space-between;
       align-items: stretch;
-     
+        align-content: space-between;
+    
     }
     
     .side {

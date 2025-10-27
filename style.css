@@ -41,8 +41,8 @@ body{
     .infl {
       display: inline-flex;
     }
-    
-    .start {
+
+.start {
      /*justify-content: flex-start;
       align-items: flex-start;
      align-content: flex-start;*/
